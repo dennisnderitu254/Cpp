@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-template <class bucky>
-bucky addCrap(bucky a, bucky b)
+template <class dennis>
+dennis addCrap(dennis a, dennis b)
 {
 return a+b;
 }
