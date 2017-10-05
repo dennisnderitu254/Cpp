@@ -1,4 +1,4 @@
-// Program tha checks a palindrome number
+// Program that checks a palindrome number
 
 #include <iostream>
 using namespace std;
