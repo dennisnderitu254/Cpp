@@ -15,7 +15,7 @@ public:
 	double getBreadth(void);
 };
 
-// Member functions definitions
+// Member function definitions
 double Rectangle::getLength(void)
 {
 	return length;
@@ -31,29 +31,27 @@ double Rectangle::getBreadth(void)
 	return breadth;
 }
 
-double Rectangle::setBreadth(double b)
+void Rectangle::setBreadth(double b)
 {
-	breadth=b;
+	breadth = b;
 }
 
 // Main function for the program
+
 int main()
 {
 	Rectangle R;
 
-	// set Rectangle length and Breadth
-	R.setlength(5.0);
+	// Set rectangle length and breadth
+	R.setLength(5.0);
 	R.setBreadth(4.0);
-	cout<<"Length of rectangle:"<<R.getLength()<<endl;
-	cout<<"Length of rectangle:"<<R.getBreadth()<<endl;
+	cout<<"length of rectangle:"<<R.getLength()<<endl;
+	cout<<"Breadth of rectangle:"<<R.getBreadth()<<endl;
 
-
-	// set Rectangle Length And Breadth without member function
+	// Set Rectangle length and Breadth without member function
 	R.length = 10.0;
 	R.breadth = 8.0;
 	cout<<"Length of Rectangle :"<<R.length<<endl;
-	cout<<"Breadth of Rectangle :"<<R.breadth<<endl;
-
+	cout<<"Breadth of Rectangle:"<<R.breadth<<endl;
 	return 0;
-
 }
