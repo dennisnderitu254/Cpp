@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	int m,n;
-	int a[size][size];
+	int a[m][n];
 
 	cout<<"Enter the number of rows"<<endl;
 	cin>>m;
@@ -16,7 +16,7 @@ int main()
 
 	cout<<"Enter the Elements in Table"<<endl;
 
-	for(int i=0;i < m;i++)
+	for(int i=0;i<m;i++)
 	{
 		for(int j=0; j< n;j++)
 		{
@@ -26,15 +26,14 @@ int main()
 
 	// Output each array element's value
 
-	for(int i=0;i < m;i++)
-	{
-		for(int j = 0;j < n;j++)
+	for(int i=0;i<m;i++)
+        for(int j=0;j<n;j++)
 		{
 			cout<<"a["<<i<<"]["<<j<<"]:";
 			cout<<a[i][j]<<endl;
 		}
-	}
-		
+
+
 
 		return 0;
 }
