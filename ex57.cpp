@@ -1,4 +1,4 @@
-// Static Function
+// Static Function in C++
 
 #include <iostream>
 using namespace std;
